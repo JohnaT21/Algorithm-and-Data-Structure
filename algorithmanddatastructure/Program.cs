@@ -1,29 +1,49 @@
-﻿
+﻿// merged of two sorted Arrays
 
-
-
-List<int> candles = new List<int> { 3  , 2, 1, 3 };
-
-int temp;
-for (int i = 0; i < candles.Count - 1; i++)
+internal class Program
 {
-    for (int j = i + 1; j < candles.Count; j++)
+    private static void Main(string[] args)
     {
-        if (candles[i] < candles[j])
-        {
-            temp = candles[i];
-            candles[i] = candles[j];
-            candles[j] = temp;
-        }
-    }
-}
-int num = candles.FirstOrDefault();
-int count = candles.Count(x => x == num);
-Console.WriteLine(count);
+        int[] nums1 =new int[] {};
+        int[] nums2 = new int[] { 1, 2, 3, 4, 5 };
+        List<int> listNums1 = new List<int>();
+        List<int> listNums2 = new List<int>();
 
-List<int> list = new List<int> { 5, 7, 3 };
-list.Sort();
-foreach (int x in list)
-{
-    Console.WriteLine(x);
+        listNums1 = nums1.ToList();
+        listNums2 = nums2.ToList();
+        listNums1.AddRange(listNums2);
+        listNums1.Sort();
+        double sum = 0;
+        double length = listNums1.Count;
+        double sum2 = 0.00;
+        double i = length / 2;
+        if(length%2 == 0)
+        {
+            int j = (int)i;  
+            sum = listNums1[j - 1] + listNums1[j];
+            sum2 = sum / 2;
+
+        }
+        else
+        {
+            int j = (int)(i);
+            Console.WriteLine(j);
+            if(j > 0)
+            {
+                sum2 = listNums1[j];
+            }
+            else
+            {
+                sum2 = listNums1[j];
+            }
+            //sum2 = listNums1[j - 1];
+
+        }
+        
+        /* Consol/*e.WriteLine(sum);
+        Console.WriteLine(length);
+        */
+        
+        Console.WriteLine($"{sum2}");
+    }
 }
