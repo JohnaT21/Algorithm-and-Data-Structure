@@ -1,0 +1,15 @@
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\bin\Debug\net6.0\algorithmanddatastructure.exe
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\bin\Debug\net6.0\algorithmanddatastructure.deps.json
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\bin\Debug\net6.0\algorithmanddatastructure.runtimeconfig.json
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\bin\Debug\net6.0\algorithmanddatastructure.dll
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\bin\Debug\net6.0\algorithmanddatastructure.pdb
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.csproj.AssemblyReference.cache
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.AssemblyInfoInputs.cache
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.AssemblyInfo.cs
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.csproj.CoreCompileInputs.cache
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.dll
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\refint\algorithmanddatastructure.dll
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.pdb
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\algorithmanddatastructure.genruntimeconfig.cache
+C:\Users\jenye\OneDrive\Desktop\jo\plularsight_project\docker\algorithmanddatastructure\algorithmanddatastructure\obj\Debug\net6.0\ref\algorithmanddatastructure.dll
