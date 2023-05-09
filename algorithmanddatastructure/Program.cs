@@ -4,46 +4,148 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int[] nums1 =new int[] {};
-        int[] nums2 = new int[] { 1, 2, 3, 4, 5 };
-        List<int> listNums1 = new List<int>();
-        List<int> listNums2 = new List<int>();
+        string originalString = "cbbd";
+        string s = "cbbd";
+        int length = s.Length;
+        int totlength = originalString.Length;
+        string resultOne = "";
+        string resultTwo = "";
+        string resultThree=  "";
 
-        listNums1 = nums1.ToList();
-        listNums2 = nums2.ToList();
-        listNums1.AddRange(listNums2);
-        listNums1.Sort();
-        double sum = 0;
-        double length = listNums1.Count;
-        double sum2 = 0.00;
-        double i = length / 2;
-        if(length%2 == 0)
+
+        for ( int i = s.Length; i>0; i--)
         {
-            int j = (int)i;  
-            sum = listNums1[j - 1] + listNums1[j];
-            sum2 = sum / 2;
+            s = s.Substring(0, length);
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            string result = new string(charArray);
+            result = result.Substring(0, length);
+           
+            /*if (length == 1)
+            {
+                originalString = originalString.Substring(1);
+                s = originalString;
+                length = s.Length;
+
+            }
+            else
+            {*/
+                if (result == s)
+                {
+                resultOne = result;
+
+                   // break;
+
+                }
+                else
+                {
+                    length--;
+                }
+
+            //}
+
+
+          
+        }
+        for (int i = 0; i < originalString.Length-1; i++)
+        {
+        
+            s = originalString.Substring(i);
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            string result = new string(charArray);
+            result = result.Substring(i);
+
+            /*if (length == 1)
+            {
+                originalString = originalString.Substring(1);
+                s = originalString;
+                length = s.Length;
+
+            }
+            else
+            {*/
+            if (result == s)
+            {
+                resultTwo = result;
+
+                break;
+
+            }
+            else
+            {
+                length--;
+            }
+
+            //}
+
+
+
+        }
+        for (int i = 0; i < originalString.Length - 1; i++)
+        {
+
+            s = originalString.Substring(i,totlength-i);
+            char[] charArray = originalString.ToCharArray();
+            Array.Reverse(charArray);
+            string result = new string(charArray);
+            result = result.Substring(i,totlength-i);
+
+            /*if (length == 1)
+            {
+                originalString = originalString.Substring(1);
+                s = originalString;
+                length = s.Length;
+
+            }
+            else
+            {*/
+            if (result == s)
+            {
+                resultThree = result;
+
+                break;
+
+            }
+            else
+            {
+                totlength--;
+            }
+
+            //}
+
+
+
+        }
+        if (resultTwo.Length > resultOne.Length)
+        {
+            if (resultTwo.Length < resultThree.Length)
+            {
+                Console.WriteLine("this is two three");
+                Console.WriteLine(resultThree);
+            }
+            else
+            {
+
+                Console.WriteLine("this is two");
+                Console.WriteLine(resultTwo);
+            }
 
         }
         else
         {
-            int j = (int)(i);
-            Console.WriteLine(j);
-            if(j > 0)
-            {
-                sum2 = listNums1[j];
+            if(resultOne.Length>resultThree.Length){
+                Console.WriteLine("this is one");
+            Console.WriteLine(resultOne);
             }
             else
             {
-                sum2 = listNums1[j];
+                Console.WriteLine("this is one three");
+                Console.WriteLine(resultThree);
             }
-            //sum2 = listNums1[j - 1];
 
         }
-        
-        /* Consol/*e.WriteLine(sum);
-        Console.WriteLine(length);
-        */
-        
-        Console.WriteLine($"{sum2}");
+
+
     }
 }
