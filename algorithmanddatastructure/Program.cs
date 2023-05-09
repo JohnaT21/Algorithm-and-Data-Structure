@@ -1,20 +1,15 @@
 ﻿
 
-int[] nums = new int [] {3,2,3};
-int target = 6;
-int[] result = new int[2];
-List<int> termsList = new List<int>();
-for (int i = 0; i < nums.Count() - 1; i++)
+int[] nums = new int [] { 1, 2, 3, 4 };
+bool result = false;
+List<int> list = new List<int>();
+list = nums.ToList();
+/*foreach (var item in nums)
+
+{*/
+if (list.Count != list.Distinct().Count())
 {
-   for (int j = i+1; j < nums.Count(); j++)
-    {
-        if (nums[i] + nums[j] == target)
-        {
-            termsList.Add(i);
-            termsList.Add(j);
-        }
-        result = termsList.ToArray();
-    }
+    result = true;
 }
-Console.WriteLine(result[0]);
-Console.WriteLine(result[1]);
+
+Console.WriteLine(result);
